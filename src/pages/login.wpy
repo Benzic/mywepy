@@ -1,0 +1,47 @@
+<style type="less">
+
+</style>
+<template>
+  <view class="login">
+        <view> 
+           <image src='../images/images/user.gif'></image>
+        </view>
+        <view>
+          <input type="text" placeholder="E-mail">
+          <input type="text" placeholder="Password">
+          <button></button>
+          <view>Forget your details?</view>
+        </view>
+        <view>Create a new account</view>
+  </view>
+</template>
+<script>
+  import wepy from 'wepy'
+
+  export default class Login extends wepy.page {
+    config = {
+        backgroundTextStyle: 'light',
+        navigationBarBackgroundColor: '#fff',
+        navigationBarTextStyle: 'black'
+    }
+    components = {
+    }
+
+    data = {
+    }
+
+    computed = {
+    }
+
+    methods = {
+    }
+
+    events = {
+
+    }
+
+    onLoad() {
+      
+    }
+  }
+  </script>
