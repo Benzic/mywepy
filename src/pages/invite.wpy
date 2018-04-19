@@ -11,6 +11,7 @@
 <template>
   <view class="invite">
     <image src='../images/start.png'>
+    <button open-type='getUserInfo' bindgetuserinfo>立即进入</button>
   </view>
 </template>
 <script>
@@ -26,6 +27,7 @@
     }
 
     data = {
+
     }
 
     computed = {
